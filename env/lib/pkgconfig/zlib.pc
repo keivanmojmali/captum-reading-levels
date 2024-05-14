@@ -1,0 +1,13 @@
+prefix=/Users/keivan/Desktop/ml-repos/captum-reading-levels/env
+exec_prefix=/Users/keivan/Desktop/ml-repos/captum-reading-levels/env
+libdir=/Users/keivan/Desktop/ml-repos/captum-reading-levels/env/lib
+sharedlibdir=/Users/keivan/Desktop/ml-repos/captum-reading-levels/env/lib
+includedir=/Users/keivan/Desktop/ml-repos/captum-reading-levels/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
