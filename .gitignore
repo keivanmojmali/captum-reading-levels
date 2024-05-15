@@ -1,1 +1,18 @@
-env/*
+# Ignore Python virtual environments
+env/
+venv/
+__pycache__/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore package directories
+site-packages/
+
+# Ignore large binary files that should be handled by Git LFS
+*.dylib
+*.so
+*.dll
